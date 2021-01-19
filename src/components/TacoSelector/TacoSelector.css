@@ -1,0 +1,34 @@
+.TacoSelector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 450px;
+  width: 200px;
+  border: 4px solid cornflowerblue;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.TacoSelector button {
+  height: 30px;
+  width: 175px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.TacoSelector button:hover {
+  background-color: limegreen;
+}
+
+
+.TacoSelector button.selected {
+  background-color: white;
+  color: limegreen;
+  border: none;
+  cursor: default;
+}
